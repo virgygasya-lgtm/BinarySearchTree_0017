@@ -24,5 +24,5 @@ class BinaryTree
     Node *ROOT;
 
     // insert a node in the binary search tree
-    void insert(string element0)
+    void insert(string element)
 }
