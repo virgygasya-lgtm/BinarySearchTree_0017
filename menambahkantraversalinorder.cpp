@@ -58,3 +58,10 @@ else if(element > parent->info)
 void inorder(Node *ptr)
 {
 }
+
+if(ptr != NULL)
+{
+    inorder(ptr->leftchild);
+    cout << ptr->info << " ";
+    inorder(ptr->rightchild);
+}
