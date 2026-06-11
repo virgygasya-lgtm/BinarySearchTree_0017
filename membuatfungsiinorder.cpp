@@ -55,3 +55,6 @@ else if(element > parent->info)
 {
     parent->rightchild = newNode;
 }
+void inorder(Node *ptr)
+{
+}
